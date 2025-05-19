@@ -1,0 +1,106 @@
+html{
+    font-size: 68.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: url(../images/bg-desktop.svg) no-repeat center;
+    background-color: hsl(257, 40%, 49%);
+    background-size: 100%;
+    color: #fff;
+    
+    
+}
+
+.header{
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.main{
+    display: flex;
+    align-content: center;
+
+}
+.main img{
+    margin-left: 7rem;
+    margin-right: 5rem;
+    width: 920px;
+}
+
+.main .about{
+    padding-top: 5rem;
+    padding-right: 11rem;
+    padding-left: 2rem;
+
+}
+
+.main .about h2{
+    font-size: 5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;   
+}
+
+.main .about p{
+    font-size: 2.1rem;
+    font-weight: 400;
+    padding-bottom: 3.5rem;
+}
+
+.main .about .btn{
+    width: 200px;
+    height: 50px;
+}
+
+.main .about .btn a{
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    font-size: 2rem;
+    border-radius: 3rem;
+    border: #fff solid;
+    padding: 10px 70px;
+    box-shadow: 0.2px 0.2px 10px  hsl(257, 42%, 22%);
+    transition: 0.1s ease-in-out;
+}
+
+.main .about .btn a:hover{
+    width: 200px;
+    height: 50px;
+    background-color: hsl(300, 69%, 71%);
+    border: hsl(300, 69%, 71%) solid;
+    color: #fff;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 10rem;
+}
+
+.footer a{
+    display: flex;
+    justify-content: center;
+    border: #fff solid 2px;
+    border-radius: 50%;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.8rem;
+    transition: 0.3s ease-in-out;
+}
+
+
+.footer a:hover{
+    border: hsl(300, 54%, 54%) 2px solid;
+}
+
+.footer .fab{
+    transition: 0.1s ease-in-out;
+}
+.footer a .fab:hover{
+    color: hsl(300, 54%, 54%);
+}
+

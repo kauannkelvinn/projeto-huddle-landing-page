@@ -1,0 +1,90 @@
+@media (max-width: 750px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: 100%;
+        background-color: hsl(257, 40%, 49%);
+        padding: 0;
+        margin: 0;
+    }
+
+    .header{
+        margin-bottom: 5rem;
+        margin-left: 6.3rem;
+    }
+
+    .header img{
+        width: 15rem;
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-right: none;
+    }
+
+    .main img{
+        width: 33rem;
+        display: flex;
+        justify-content: center;
+        padding-right: 3rem;
+    }
+
+    .main .about {
+        padding-right: 0;
+        margin: 0px 5.5rem;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .main .about h2{
+        font-size: 2rem;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+    
+    .main .about p{
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding-bottom: 2rem;
+    }
+
+    .main .about .btn{
+        display: flex;
+        align-self: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 6.5rem;
+    }
+
+    .main .about .btn a{
+        font-size: 1.3rem;
+        display: flex;
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: 3rem;
+        justify-content: center;
+        padding-right: 0;
+        margin-right: 0;
+        gap: 1.2rem;
+        margin-left: 1.7rem;
+    }
+
+    .footer a{
+        border: #fff solid 1.6px;
+        font-size: 1.3rem;
+        width: 1px;
+        height: 1px;
+        padding: 1.4rem;
+    
+
+
+    }
+    
+
+}
