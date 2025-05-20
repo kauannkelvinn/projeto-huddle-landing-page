@@ -10,4 +10,4 @@ Um Projeto de Frontend Mentor do huddle landing page com seção introdutória �
 - Flexbox
 
 ## Link
-- URL do site ativo: [Huddle Lnading Page](https://kauannkelvinn.github.io/projeto-huddle-landing-page/)
+- URL do site ativo: [Huddle Landing Page](https://kauannkelvinn.github.io/projeto-huddle-landing-page/)
